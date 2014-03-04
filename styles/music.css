@@ -1,0 +1,197 @@
+@charset "utf-8";
+body {
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #eff5f8;
+	background-image: url(../bayside_beat/images/pattern.JPG);
+}
+#wrapper {
+	background-color: white;
+	width: 100%;
+	min-width: 740px;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#hero {
+	max-width: 100%;
+	position: relative;
+	clear: left;
+	top: 0px;
+}
+#hero .slideshow {
+	width: 100%;
+	z-index: 0;
+}
+#hero article {
+	width: 25%;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top: 45px;
+	right: 45px;
+	background-color: #F99E72;
+	border-radius: 15px;
+	color: white;
+	z-index: 1;
+}
+#hero h2 {
+	color: white;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: -7px;
+}
+
+
+h1, h2 {
+	color: #3399cc;
+	font-style: normal;
+	font-weight: 400;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-transform: lowercase;
+}
+
+h1 {
+	font-size: 34px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-style: normal;
+	font-weight: 400;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #43A6CB;
+}
+#main {
+	width: 90%;
+	margin-left: 2%;
+	float: left;
+	margin-right: 2px;
+}
+#sidebar {
+	width: 36%;
+	float: left;
+	background-color: #DCDADB;
+	border-radius: 15px;
+	position: relative;
+	top: 50px;
+	padding-right: 14px;
+	padding-left: 26px;
+	left: -60px;
+	padding-bottom: 50px;
+}
+footer {
+	clear: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #FFFFFF;
+	color: #43a6cb;
+	text-align: center;
+}
+#wrapper footer p {
+}
+figure {
+	width: 420px;
+}
+figure {
+}
+figure img {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: white;
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	box-shadow: 1px 1px 15px #999999;
+	border-radius: 0px;
+}
+
+
+figcaption {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.floatleft {
+	margin-right: 10px;
+	float: left;
+}
+.floatright {
+	float: right;
+	margin-left: 10px;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #ff6600;
+}
+a:visited {
+	color: #ff944c;
+}
+a:hover, a:active, a:focus {
+	color: #7f3300;
+	text-decoration: underline;
+}
+#mainnav ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#mainnav a {
+	width: 20%;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #4d4d4d;
+	color: white;
+	text-transform: uppercase;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+	text-decoration: none;
+	background-color: #43a6cb;
+}
+#top {
+	background-color: #FFFFFF;
+}
+
+#navlist
+{
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;	
+}
+
+.space {
+	width: 0px;
+	height: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: -37px;
+	margin-bottom: 0px;
+	padding-bottom: 9px;
+	top: 9px;
+	position: relative;
+
+}
+#table {
+	position: relative;
+	left: 100px;
+}

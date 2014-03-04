@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Justin's Juicy Jives</title>
+    <link href="styles/dance.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    
+    <script type="text/javascript">
+		$(document).ready(function() {
+
+	var firstSource = $('#container iframe:first').attr('alt');
+	$('#container iframe:first').attr('src', firstSource);
+
+	$('#container').cycle({
+		/* cycle options */
+		fx:      'fade',
+		prev:    '#prev',
+		next:    '#next',
+		timeout:  0,
+		after: function() {
+			$('#container iframe').attr('src', '');
+			var theSource = $(this).find('iframe').attr('alt');
+			console.log('theSource:before', theSource);
+			$(this).find('iframe').attr('src', theSource);
+		}
+	});
+
+	$('#slidenav a').on("click", function(e){ return false; });
+
+});
+			
+</script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+      <header id="top">
+        <h1>Justin's Juicy Jives</h1>
+        <nav id="mainnav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="study.html">Study</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="dance.html"  class="thispage">Dance</a></li>
+            <li><a href="photography.html">Photography</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+   <div id="hero">
+     
+   	  <div class="slideshow">
+      	<ul id="container">
+     <li>
+		<iframe src="http://www.youtube.com/embed/6ibW7h-ezWI" alt="http://www.youtube.com/embed/6ibW7h-ezWI?autoplay=1" width="1000" height="563"frameborder="0" allowfullscreen></iframe>
+        
+       <article_1>
+        <p>A mini project by Vasilis Glezakos.</p>
+     </article>
+        </li>
+        
+	<li>
+		<iframe src="http://player.vimeo.com/video/45416278" alt = "http://player.vimeo.com/video/45416278?autoplay=1" width="1000" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    
+    <article_2>
+        <p>A mini tutorial for our breakdance club.</p>
+     </article>
+         	</li>
+</ul>
+
+<div id="slidenav" style="text-align:center;margin:auto;width:300px;">
+	<a href="javascript:return false;" id="prev">prev</a>
+	<a href="javascript:return false;" id="next">next</a>
+</div>
+    </div> 
+     
+  </div>
+      <article id="main">
+    	<h2>Saiko Skematiks</h2>
+        <p>I'm currently the youngest member of the Saiko Skematiks Squad. We are seven of Toronto's most bizarre dancers and will always be.</p>
+        
+        <figure id="saiko"><img src="bayside_beat/images/34951_411073452774_509882774_4836621_4252969_n.jpg"width="300" height="240"  alt=""/>
+          <figcaption id="saiko_caption">Still keeping it ice col' on the right!</figcaption>
+        </figure>
+        
+        <h2>saiko's hitlist</h2>
+        <p>Check out some of the competitions Saiko has competed in:</p>
+        
+        <dl id="navlist">
+	<dd><div class="space"><img src="bayside_beat/images/youtube-icon.png" width="20" height="20"></div><a href="http://www.youtube.com/watch?v=kXD2RpggCr8&feature=c4-overview&list=UU7_dYDCJCd4Aj5noXAPDKew"> Justin x uWaterloo Community 2013</a></dd>
+   
+   <dd><div class="space"><img src="bayside_beat/images/youtube-icon.png" width="20" height="20"></div><a href="http://www.youtube.com/watch?v=-a058l6WowE"> Saiko x Breaking Point 2013</a></dd>
+</dl>
+
+	<dd><div class="space"><img src="bayside_beat/images/youtube-icon.png" width="20" height="20"></div><a href="http://www.youtube.com/watch?v=VIxHLTlwUuk"> Saiko x Free Your Style 2013</a></dd>
+</dl>
+
+   <dd><div class="space"><img src="bayside_beat/images/youtube-icon.png" width="20" height="20"></div><a href="http://www.youtube.com/watch?v=Oj9PrBUC3w0"> Saiko x Form Always Matters 2011</a></dd>
+</dl>
+
+	<dd><div class="space"><img src="bayside_beat/images/youtube-icon.png" width="20" height="20"></div><a href="http://www.youtube.com/watch?v=pv9O8vHoCRU"> Justin x Art Re-Starts 2010</a></dd>
+</dl>
+      </article>
+      
+      <aside id="sidebar"> 
+      	<h2>SAM Jams</h2>
+        <p>For over 3 years, I ran an after school breakdance program at Toronto middle school, Sir Alexander Mackenzie P.S. </p>
+        <p>Check out these annual city wide highschool competitions we ran!</p>
+        
+<dl id="navlist">
+	<dd><div class="space"><img src="bayside_beat/images/vimeo.jpg" width="20" height="20"></div><a href="http://vimeo.com/30642879"> SAM Jam 1.0</a></dd>
+     <dd><div class="space"><img src="bayside_beat/images/vimeo.jpg" width="20" height="20"></div><a href="http://vimeo.com/48720889k"> SAM Jam 2.0</a></dd>
+	<dd><div class="space"><img src="bayside_beat/images/youtube-icon.png" width="20" height="20"></div><a href="https://www.youtube.com/watch?v=MloHsdrj8Dk"> SAM Jam 3.0</a></dd>
+   
+</dl>
+
+<h2>ridiculous rascals</h2>
+
+<p>While I was in highschool, myself and other fellow dancers got together to form our highschool crew, Ridiculous Rascals. </p>
+
+<p>We competed annualy at high school competitions and always ranked in the top 3</p>
+
+<p>We also performed annualy and our showcases were always headliners to talent shows.</p>
+
+<figure id="rascals"><img src="bayside_beat/images/307887_10150272794012775_509882774_8012738_7468408_n.jpg"width="380" height="266"  alt=""/>
+          <figcaption>Jiving it out on the right!</figcaption>
+        </figure>
+
+		</aside>
+      <footer><p>&copy;Copyright 2013 Justin Wong</p></footer>
+	</div>
+</body>
+</html>

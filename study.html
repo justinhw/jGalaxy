@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Justin's Study Guide</title>
+    <link href="styles/study.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+      <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+      <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+      <script>
+      $(function() {
+        $( "#menu" ).accordion();
+      });
+      </script>
+     
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Class',     7],
+          ['Eat',      1.5],
+          ['Commute',  0.5],
+          ['Study', 6],
+          ['Sleep',    7],
+		  ['Dance', 1.5],
+		  ['Cook', 0.5]
+        ]);
+
+        var options = {
+		  backgroundColor: 'transparent',
+          pieHole: 0.4,
+		  colors: ['#A9B456', '#AC494E', '#DF974D', '#765DA1', '#548FCB', '#00AAB8', '#E776AE'],
+		  fontName: '"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+
+<body>
+	<div id="wrapper">
+      <header id="top">
+        <h1>Justin's Study Guide</h1>
+        <nav id="mainnav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="study.html" class="thispage">Study</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="dance.html">Dance</a></li>
+            <li><a href="photography.html">Photography</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+   <div id="hero">
+     <article><h2>Why Systems Design Engineering?</h2>
+        <p>Because "Systems is how I see the world & design is how I'll change it."</p>
+     </article>
+   	  <img src="bayside_beat/images/waterloo.jpg" width="1000" height="547"  alt=""/></div>
+      <article id="main">
+        <h2>but I'm not a nerd</h2>
+        <p>I love learning new things. In fact, why don't you check out this new accordion feature I just learned how to build?</p>
+        
+        <h2>fall 2013</h2>
+        <div id="menu">
+        	<h3>Fall 2013 GPA</h3>
+            	<div>
+                	<p>Final: 88.5%</p>
+                </div>
+        	<h3>Intro to SYDE 101</h3>
+            	<div>
+                	<p>Final: 89%</p>
+                </div>
+            <h3>Graphics 101L</h3>
+            	<div>
+                	<p>Final: 82%</p>
+                </div>
+            <h3>Calculus 111</h3>
+            	<div>
+                	<p>Final: 98%</p>
+                </div>
+            <h3>Digital Computation 121</h3>
+            	<div>
+                	<p>Final: 90%</p>
+                </div>
+            <h3>Matrices & Linear Systems 113</h3>
+            	<div>
+                	<p>Final: 86%</p>
+                </div>
+            <h3>Intro to Design 161</h3>
+            	<div>
+                	<p>Final: 81%</p>
+                </div>
+            <h3>Statics 181</h3>
+            	<div>
+                	<p>Final: 89%</p>
+                </div>
+        </div>
+      </article>
+      <aside id="sidebar"> 
+	   
+       <h2>learning how to survive</h2>
+	<p>I think the toughest thing about your first University term is learning how to do all the things your parents used to do for you - and doing them efficiently. </p>
+    <p>For example, thanks to 1A, I learned how to cook nice dinners in under 20 minutes!</p>
+    
+	<h2>how i spent my 24 hours</h2>    
+      <div id="donutchart" style="width: 900px; height: 500px;"></div>
+    
+</aside>
+      <footer><p>&copy;Copyright 2013 Justin Wong</p></footer>
+	</div>
+</body>
+</html>
