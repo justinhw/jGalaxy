@@ -54,10 +54,11 @@ h1 {
 	color: #43A6CB;
 }
 #main {
-	width: 51%;
+	width: 49%;
 	float: left;
 	position: relative;
 	left: 50px;
+	margin-right: 20px;
 }
 #sidebar {
 	width: 36%;
@@ -191,4 +192,7 @@ body {
 	background-image: url(../bayside_beat/images/pattern.JPG);
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 
+}
+#hobbies {
+	list-style-type: none;
 }
