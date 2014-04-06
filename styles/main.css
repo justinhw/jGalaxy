@@ -13,6 +13,7 @@
 	position: relative;
 	clear: left;
 	top: 0px;
+	width: 100%;
 }
 #hero article {
 	width: 32%;
@@ -195,7 +196,11 @@ body {
 
 }
 #hobbies {
-	list-style-image: url(file:///C|/Users/Justin/Documents/GitHub/jGalaxy/bayside_beat/images/check.jpg);
+	list-style-image: url(../bayside_beat/images/check.jpg);
+}
+#followme {
+	position: relative;
+	top: -50px;
 }
 #followme {
 	position: relative;
