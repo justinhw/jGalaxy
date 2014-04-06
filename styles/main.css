@@ -54,11 +54,11 @@ h1 {
 	color: #43A6CB;
 }
 #main {
-	width: 49%;
+	width: 45%;
 	float: left;
 	position: relative;
 	left: 50px;
-	margin-right: 20px;
+	margin-right: 55px;
 }
 #sidebar {
 	width: 36%;
@@ -71,7 +71,8 @@ h1 {
 	padding-left: 26px;
 	left: 47px;
 	padding-bottom: 50px;
-	height: 615px;
+	height: 700px;
+	min-height: 0px;
 }
 footer {
 	clear: left;
@@ -195,4 +196,8 @@ body {
 }
 #hobbies {
 	list-style-image: url(file:///C|/Users/Justin/Documents/GitHub/jGalaxy/bayside_beat/images/check.jpg);
+}
+#followme {
+	position: relative;
+	top: -50px;
 }
