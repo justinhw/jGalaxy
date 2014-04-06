@@ -3,9 +3,9 @@
 	width: 100%;
 	min-width: 740px;
 	max-width: 1000px;
-	margin-right: auto;
 	margin-left: auto;
 	background-color: #FFFFFF;
+	margin-right: auto;
 }
 
 #hero {
@@ -13,18 +13,17 @@
 	position: relative;
 	clear: left;
 	top: 0px;
-	width: 100%;
 }
 #hero article {
 	width: 32%;
 	padding-left: 10px;
 	padding-right: 10px;
 	position: absolute;
-	top: 375px;
+	top: 391px;
 	background-color: #F99E72;
 	border-radius: 15px;
 	color: white;
-	left: 614px;
+	left: 626px;
 	z-index: 1;
 }
 #hero h2 {
@@ -197,10 +196,6 @@ body {
 }
 #hobbies {
 	list-style-image: url(../bayside_beat/images/check.jpg);
-}
-#followme {
-	position: relative;
-	top: -50px;
 }
 #followme {
 	position: relative;
