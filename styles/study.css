@@ -63,10 +63,13 @@ h1 {
 	color: #43A6CB;
 }
 #main {
-	width: 45%;
+	width: 35%;
 	margin-left: 2%;
 	float: left;
 	background-color: #FFFFFF;
+	position: relative;
+	left: 50px;
+	padding-right: 55px;
 }
 #sidebar {
 	width: 43%;
