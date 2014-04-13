@@ -195,3 +195,6 @@ a:hover, a:active, a:focus {
 	position: relative;
 	left: 100px;
 }
+#albumCover {
+	z-index: 0;
+}

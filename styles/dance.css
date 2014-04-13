@@ -23,6 +23,7 @@ body {
 	position: relative;
 	clear: left;
 	top: 0px;
+	z-index: 0;
 }
 
 #hero h2 {
@@ -223,4 +224,9 @@ iframe
 }
 li {
 	list-style-type: none;
+}
+#container {
+	z-index: 2;
+	list-style-type: none;
+	padding-left: 0px;
 }
